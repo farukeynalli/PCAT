@@ -1,0 +1,17 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "photo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "photo"
+  ],
+  "author": "eynalli",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
+}

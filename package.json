@@ -4,7 +4,8 @@
   "description": "photo app",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon app.js"
   },
   "keywords": [
     "photo"
@@ -12,6 +13,10 @@
   "author": "eynalli",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.0",
     "prettier": "3.2.5"
+  },
+  "dependencies": {
+    "express": "^4.18.3"
   }
 }

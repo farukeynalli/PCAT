@@ -5,11 +5,9 @@ const methodOverride = require('method-override');
 
 const ejs = require('ejs');
 const path = require('path');
-const Photo = require('./models/Photo');
-const fs = require('fs');
 
-const photoController = require('./controlllers/photoControllers');
-const pageController = require('./controlllers/pageControllers');
+const photoController = require('./controllers/photoControllers');
+const pageController = require('./controllers/pageControllers');
 
 const app = express();
 
